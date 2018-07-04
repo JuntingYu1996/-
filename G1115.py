@@ -11,7 +11,7 @@ def plotmap():
               title_pos="center",
               width=1366,
               height=768,
-              page_title ='湖南省地质中学G1115班本科同学毕业去向',
+              page_title ='湖南省地质中学G1115班同学本科毕业去向',
               background_color="#404a59")
 
     with open("G1115.txt") as file:
@@ -38,7 +38,7 @@ def plotmap():
             label_color=['#FFFFFF']*len(attr),
             label_emphasis_textcolor='#FFFFFF',
             #tooltip_tragger_on='click',
-            tooltip_font_size=12,
+            tooltip_font_size=15,
             tooltip_background_color="rgba(50,50,50,0.3)",)
 
     geo.render("G1115.html")
