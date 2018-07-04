@@ -38,7 +38,7 @@ def plotmap():
             label_color=['#FFFFFF']*len(attr),
             label_emphasis_textcolor='#FFFFFF',
             #tooltip_tragger_on='click',
-            tooltip_font_size=12,
+            tooltip_font_size=15,
             tooltip_background_color="rgba(50,50,50,0.3)",)
 
     geo.render("大珩1401.html")
